@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    basePrice: 100
+    basePrice: 0
   },
   computed: {
     taxIncludedPrice: {
